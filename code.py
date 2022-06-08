@@ -5,3 +5,5 @@ def calc(operator, x, y):
         return x - y
     elif operator == "*":
         return x * y
+    elif operator == "/":
+        return x / y
