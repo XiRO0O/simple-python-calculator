@@ -26,11 +26,11 @@ print("6.modulo")
 
 while True:
     
-    choice = input("enter choice(1/2/3/4/5): ")
+    choice = input("enter choice(1/2/3/4/5/6): ")
 
     if choice in ('1', '2', '3', '4', '5', '6'):
-        num1 = float(input("enter first number: "))
-        num2 = float(input("enter second number: "))
+        num1 = int(input("enter first number: "))
+        num2 = int(input("enter second number: "))
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
